@@ -13,7 +13,7 @@
     
     <style>
       
-      #email-raw, #email-edit { font-size: 10px; }
+/*      #email-raw, #email-edit { font-size: 13px; border: 1 p }*/
       
       .argument input[type=checkbox], .question input[type=checkbox] { vertical-align: middle; margin-right: 1em; height: 1em; }
       .argument input[type=text] {}
@@ -23,6 +23,11 @@
       
       .question { font-weight: bold; }
       .section-head { font-weight: bold; }
+      
+      .argument, .section-head { display: none; }
+      
+      
+      #email-edit { width: 100%; height: 40em; }
     </style>
     
     <!-- /build -->
@@ -61,20 +66,24 @@
 <!-- start of raw email -->
 
 
-<div>To<br>Dr. Rahul  Khullar<br>Chairman, Telecom Regulatory Authority of India<br>
+<div class="hidden">To<br>Dr. Rahul  Khullar<br>Chairman, Telecom Regulatory Authority of India<br>
   Mahanagar Doorsanchar Bhawan, Jawahar Lal Nehru Marg (Old Minto Road), New Delhi – 110002</div>
 
-<div>Dated: April <script>document.write(new Date().getDate())</script>, 2015</div>
+<div class="hidden">Dated: April <script>document.write(new Date().getDate())</script>, 2015</div>
 
-<div>Dear Sir,</div>
+<div class="hidden">Dear Sir,</div>
 
-<div>Re: Response to the Consultation on Regulatory Framework for Over-the-top (OTT) Services/ Internet Services and Net Neutrality</div>
+<div class="hidden">Re: Response to the Consultation on Regulatory Framework for Over-the-top (OTT) Services/ Internet Services and Net Neutrality</div>
 
-<div>We wish to thank you for providing us the opportunity to submit our views on the consultation paper on the Regulatory Framework for OTT Services, Internet Services and Network Neutrality released on March 27, 2015 by the TRAI (referred to as the “Internet Licensing Paper”). We are signing onto this letter and the supporting submissions on the specific queries listed in the Internet Licensing Paper. Before proceeding to the submissions which we wish to make some general comments on the paper itself.</div>
-<div class="argument">Any consultation paper is aimed at providing a background to a reader which is neutral and helps them arrive at an informed opinion. This is unfortunately absent from the Internet Licensing Paper. It seems to have been drafted catering exclusively to the interests of the telecom industry. The interests of ordinary internet users should precede any corporate interests or arguments for profit. Also the interests of the technology industry which is giving a high degree of growth to the Indian economy are largely ignored. The Internet Licensing Paper makes broad assumptions and takes statements by the telecom industry without any verification or the demonstration of empirical proof. It further then poses questions on the basis of them. Naturally they are skewed in the favour of telecom companies.</div>
+<div class="hidden">We wish to thank you for providing us the opportunity to submit our views on the consultation paper on the Regulatory Framework for OTT Services, Internet Services and Network Neutrality released on March 27, 2015 by the TRAI (referred to as the “Internet Licensing Paper”). We are signing onto this letter and the supporting submissions on the specific queries listed in the Internet Licensing Paper. Before proceeding to the submissions which we wish to make some general comments on the paper itself.</div>
+        
+        
+        
+<div class="argument">
+  Any consultation paper is aimed at providing a background to a reader which is neutral and helps them arrive at an informed opinion. This is unfortunately absent from the Internet Licensing Paper. It seems to have been drafted catering exclusively to the interests of the telecom industry. The interests of ordinary internet users should precede any corporate interests or arguments for profit. Also the interests of the technology industry which is giving a high degree of growth to the Indian economy are largely ignored. The Internet Licensing Paper makes broad assumptions and takes statements by the telecom industry without any verification or the demonstration of empirical proof. It further then poses questions on the basis of them. Naturally they are skewed in the favour of telecom companies.</div>
 <div class="argument">The way the paper is structured is a cause of concern. Experts like us are demanding network neutrality laws to protect against discrimination in traffic data and blocking and double charging on specific internet services. To this the TRAI has posed question on the licensing of such services itself. By doing so, it has adopted an extremely regressive position which is contrary to user interest. The signatories to this, clearly want two things. First, no licensing of Internet Services and second network neutrality regulations to be issued urgently. This is our clear position and of many other supporting organisations and individuals. Further detail on this is provided in answers to the specific queries listed in the Internet Licensing Paper below.</div>
 <div class="argument">We request that a transparent process with respect to this consultation may be followed to inspire greater confidence and trust. You are requested to publicly publish our response on the TRAI website as has been done in the past when any member of the public has commented. Further the TRAI is requested to issue a specific response to submissions after collating the concerns which arise from them before making any recommendation.</div>
-<div>Thanking you,</div>
+<div class="hidden">Thanking you,</div>
 <div class="special"><label>Your full name <input name="fname"/></label> <label>Your email address <input name="fname"/></label></div>
 
 <div class="question">Question 1: Is it too early to establish a regulatory framework for Internet/OTT services, since internet penetration is still evolving, access speeds are generally low and there is limited coverage of high-speed broadband in the country? Or, should some beginning be made now with a regulatory framework that could be adapted to changes in the future? Please comment with justifications.</div>
@@ -90,11 +99,12 @@
 <div class="argument">It may also be considered as to the jurisdictional basis of the TRAI to consider regulating Internet Platforms and Services as opposed to issuing Network Neutrality regulations on TSPs. There may not be jurisdictional basis under the TRAI Act or even under the Telegraph Act to regulate Internet Platforms and Services. However, Network Neutrality regulations can be easily made, since TSPs are directly governed by the TRAI. </div>
 <div class="argument">Any licensing or registration, even if soft touch such as the registration in the OSP category will destroy innovation, increase time for roll outs and also increase costs for bootstrapped entrepreneurs. The net effect will be disastrous for the internet economy. </div>
 <div class="section-head">Corresponding Data Points</div>
-<div class="argument">Internet economy and contribution to national wealth</div>
-<ol>
-  <li>A McKinsey Global Institute India specific report in 2012, titled as, “Online and Upcoming: The Internet’s Impact on India” notes that Internet Applications and Platforms have the ability to reach 3.6% of the GDP by 2015. This is in the absence of any fresh or additional regulatory framework [Link].</li>
-  <li>A more recent report in 2015 by the Boston Consulting Group and the IAMAI, notes that in 2013, internet applications and services actually contributed 3.2% to the national GDP and this would grow to 5% by 2020. The report in its comments calls for decreasing existing burdens on online service providers by reforms to the Information Technology Act and the Copyright Act rather than any fresh or additional regulation [Link].</li>
-</ol>
+<div class="argument">Internet economy and contribution to national wealth
+  <ol>
+    <li>A McKinsey Global Institute India specific report in 2012, titled as, “Online and Upcoming: The Internet’s Impact on India” notes that Internet Applications and Platforms have the ability to reach 3.6% of the GDP by 2015. This is in the absence of any fresh or additional regulatory framework [Link].</li>
+    <li>A more recent report in 2015 by the Boston Consulting Group and the IAMAI, notes that in 2013, internet applications and services actually contributed 3.2% to the national GDP and this would grow to 5% by 2020. The report in its comments calls for decreasing existing burdens on online service providers by reforms to the Information Technology Act and the Copyright Act rather than any fresh or additional regulation [Link].</li>
+  </ol>
+</div>
 <div class="argument">Comments by various TSPs on MVAS consultation [Link]
   <ol>
     <li><strong>AIRTEL</strong>: “The telecom licenses are granted under Indian Telegraph Act 1885, to provide, establish, maintain and work telegraph. Since, Value Added Service Providers neither provide nor establish/maintain work telegraph, a license under Indian Telegraph Act may not be a legally tenable option. Also the National Telecom Policy, 1999 clearly defines the services for which licenses can be issued and there is no category of license envisaged in the National Telecom Policy, 1999 for mobile VAS companies.”</li>
@@ -331,7 +341,7 @@
       
       <div><button id="generate">Generate a response</button></div>  
       
-      <div id="email-edit" contenteditable></div>
+      <textarea id="email-edit"></textarea>
 
     </div>
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
@@ -345,63 +355,49 @@
       function addControls() {
         $("#email-raw").children("div").each(function (i, p) {
           var $p = $(p);
-          if ($p.hasClass("question") || $p.hasClass("argument")) {
+          if ($p.hasClass("argument")) {
             $p.prepend(
               $('<input type="checkbox">').prop("checked", $p.hasClass("question")? true: Math.random() < 0.5)
             ).wrapInner('<label>');
           } else if($p.hasClass("answer")) {
-            $p.wrapInner('<textarea>');
+//            $p.wrapInner('<textarea>');
           }
         });
       }
       
       function generate() {
-        var skipQuestion = false, lastEmptySection = null, $edit = $("#email-edit").empty();
+        var skipQuestion = false, currentSectionHead = "";
         
-        function removeCheckbox($p) {
-          var $clone = $p.clone();
-          
-          $clone.find("label").children().unwrap();
-          $clone.find("input").remove();
-          return $clone;
-        }
+        var text = "";
         
-        console.log($edit);
+//        function removeCheckbox($p) {
+//          var $clone = $p.clone();
+//          
+//          $clone.find("label").children().unwrap();
+//          $clone.find("input").remove();
+//          return $clone;
+//        }
+        
         
         $("#email-raw").children("div").each(function (i, p) {
           var $p = $(p), val;
                     
-          if ($p.hasClass("question")) {
-            if(lastEmptySection) lastEmptySection.remove();
-            lastEmptySection = null;
-            skipQuestion = !($p.find("input[type=checkbox]").prop("checked"));
-            if(!skipQuestion) $edit.append(removeCheckbox($p));
-          } else if(!skipQuestion) {
-            if ($p.hasClass("answer")) {
-              val = $p.find("textarea").val();
-              $p = $p.clone();
-              $p.html(val);
-              $edit.append($p);
-            } else if ($p.hasClass("section-head")) {
-              if(lastEmptySection) lastEmptySection.remove();
-              $p = $p.clone();
-              $edit.append($p);
-              lastEmptySection = $p;
-            } else if ($p.hasClass("argument")) {
-              console.log('arg', $p.find("input[type=checkbox]").prop("checked"));
-              if($p.find("input[type=checkbox]").prop("checked")) {
-                $edit.append(removeCheckbox($p));
-                lastEmptySection = null;
-              }
-            } else if (!$p.hasClass("skip")){
-              $edit.append($p.clone());
+          if ($p.hasClass("section-head")) {
+            currentSectionHead = $p.text() + '\n\n';
+          } else if ($p.hasClass("argument")) {
+            if($p.find("input[type=checkbox]").prop("checked")) {
+              text += currentSectionHead + $p.text() + '\n\n'; // switch to $p.find("detail").text();
+              currentSectionHead = "";
             }
+          } else if (!$p.hasClass("skip")){
+            text += $p.text() + '\n\n';
           }
+            
         });
-        if(lastEmptySection) lastEmptySection.remove();
         
+        console.log(text);
         
-        $edit[0].scrollIntoView();
+        $("#email-edit").text(text);
       }
     </script>
   </body>
